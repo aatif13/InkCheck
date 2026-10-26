@@ -1,0 +1,176 @@
+﻿Diagnose log at 2026-10-26T05:48:47Z
+
+AppPath: C:\Program Files\Git\ucrt64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\ucrt64\bin\
+Version: 2.9.1+6760f0ef069c994aa2bb1d703fb374986ee82a3e
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=UCRT64
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+TMP=C:\Users\PC\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+DriverData=C:\Windows\System32\Drivers\DriverData
+Path=C:/Program Files/Git/ucrt64/libexec/git-core;C:\Program Files\Git\ucrt64\bin;C:\Program Files\Git\usr\bin;C:\Users\PC\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Users\PC\AppData\Local\Programs\Python\Python313;c:\Users\PC\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0;C:\Program Files\MongoDB\Server\8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\PC\.local\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\mosquitto;C:\Users\PC\.local\bin;c:\Users\PC\AppData\Local\Programs\Trae\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\PC\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC\AppData\Local\Programs\Python\Python313\;C:\Users\PC\AppData\Local\Programs\Python\Launcher\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2024.3.5\bin;C:\Users\PC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\PC\AppData\Roaming\npm;C:\Program Files\mongosh\;C:\Program Files\JetBrains\PyCharm 2025.2.0.1\bin;C:\Users\PC\AppData\Local\Programs\Ollama;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Local\Programs\Antigravity\bin;C:\ProgramData\PC\GitHubDesktop\bin;C:\Users\PC\AppData\Local\GitHubDesktop\bin;C:\Users\PC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\PC\.dotnet\tools;C:\Users\PC\AppData\Local\Programs\Zed\bin;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Program Files\Git\cmd
+PROCESSOR_REVISION=aa04
+TEMP=C:\Users\PC\AppData\Local\Temp
+USERPROFILE=C:\Users\PC
+LOGONSERVER=\\MSI
+TERM=xterm-256color
+USERNAME=PC
+SystemRoot=C:\WINDOWS
+GIT_EXEC_PATH=C:/Program Files/Git/ucrt64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\PC\OneDrive
+CommonProgramFiles=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+EFC_13056_4126798990=1
+ProgramData=C:\ProgramData
+LC_CTYPE=C.UTF-8
+HOMEPATH=\Users\PC
+OneDriveConsumer=C:\Users\PC\OneDrive
+COMPUTERNAME=MSI
+EFC_13056_1592913036=1
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+SESSIONNAME=Console
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+HOMEDRIVE=C:
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=19d8b06c-57b8-4fa6-b4da-9347b2f440b4
+NUMBER_OF_PROCESSORS=22
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+MOSQUITTO_DIR=C:\Program Files\Mosquitto
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOME=C:\Users\PC
+PSModulePath=C:\Users\PC\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Users\PC\AppData\Local\Temp
+APPDATA=C:\Users\PC\AppData\Roaming
+USERDOMAIN=MSI
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\PC\AppData\Local
+PyCharm=C:\Program Files\JetBrains\PyCharm 2025.2.0.1\bin
+USERDOMAIN_ROAMINGPROFILE=MSI
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\PC\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\PC\AppData\Local\Temp\10c34173817fa3d12b90c6f6'... OK
+Reading from temporary file 'C:\Users\PC\AppData\Local\Temp\10c34173817fa3d12b90c6f6'... OK
+Deleting temporary file 'C:\Users\PC\AppData\Local\Temp\10c34173817fa3d12b90c6f6'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\PC
+UserDataDirectoryPath: C:\Users\PC\.gcm
+GetCurrentDirectory(): C:\Users\PC\Downloads\in
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: False
+Exception:
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'example.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitCredentialManager.Diagnostics.NetworkingDiagnostic.<RunInternalAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitCredentialManager.Diagnostics.Diagnostic.<RunAsync>d__6.MoveNext()
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... warning: HEAD request failed
+Sending HEAD request to http://httpforever.com... OK
+Sending HEAD request to https://example.com...
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.56.0.windows.2'
+Locating current repository...Git repository at 'C:/Users/PC/Downloads/in/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Users/PC/.gitconfig	user.name=aatif13
+file:C:/Users/PC/.gitconfig	user.email=aatifmulla1113@gmail.com
+file:C:/Users/PC/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/PC/.gitconfig	filter.lfs.required=true
+file:C:/Users/PC/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/PC/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/PC/.gitconfig	credential.https://huggingface.co.provider=generic
+file:C:/Users/PC/.gitconfig	init.defaultbranch=main
+file:C:/Users/PC/.gitconfig	credential.helper=manager
+file:C:/Users/PC/.gitconfig	credential.interactive=true
+file:C:/Users/PC/.gitconfig	core.pager=cat
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/aatif13/InkCheck.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\PC\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\PC\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

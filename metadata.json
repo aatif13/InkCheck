@@ -1,0 +1,6 @@
+{
+  "name": "InkCheck — Brand Governance Platform",
+  "description": "Enterprise brand-governance platform checking content against guidelines, approved facts, terminology, and visual assets with explainable citations and human-in-the-loop approvals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
